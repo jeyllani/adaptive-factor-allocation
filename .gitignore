@@ -17,9 +17,16 @@
 # If you have these at root too, keep them
 !*.ipynb
 
-# Ignore data (recommended) OR keep selectively
-project/data/
-project/data/**
+# Never version data
+/project/data/
+/project/data/**
+/project/raw_data_processing/
+/project/raw_data_processing/**
+
+
+
+
+
 
 # If you want to keep results, uncomment these two lines and remove the ignore above for results
 !project/results/
@@ -33,3 +40,4 @@ project/data/**
 .venv/
 .env
 .DS_Store
+
