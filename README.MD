@@ -59,8 +59,15 @@ adaptive-factor-allocation/
     ├── data/                   # Processed datasets (Signals, Portfolios, ML Features)
     └── results/                # Output Tables, Figures, and LaTeX exports
 ```
+---
 
-> **Data Availability Note**: Raw CRSP and Compustat data are proprietary and **not included** in this repository. Users must have a valid WRDS license to access the source files required for the initial `raw_data_processing` step. All intermediate processed data (e.g., portfolio returns) are provided to replicate the post-processing results.
+### Data Access Policy
+
+This repository intentionally **does not include any data files or derived datasets** (e.g., `project/data/**`, `data/**`) because they originate from proprietary sources licensed via **WRDS (Wharton Research Data Services)** (CRSP, Compustat, CCM).
+
+To reproduce the full pipeline, users must have their own valid WRDS license and obtain the raw datasets independently. The setup script creates the expected folder structure; users must then place the raw input files in the designated directory (e.g., `project/raw_data_processing/data/raw/` or `project/data/raw/`, depending on the pipeline configuration).
+
+**No redistribution:** Users may not redistribute WRDS-licensed data or any files derived from it through this repository.
 
 ---
 
