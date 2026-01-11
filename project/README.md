@@ -72,7 +72,13 @@ pip install -r requirements.txt
 ---
 
 ### Data Access Policy
-This repository **does not** contain the proprietary raw data files (`data/raw/*`) required to run the `raw_data_processing/` pipeline. These datasets (CRSP, Compustat, CCM) are licensed from **WRDS (Wharton Research Data Services)**. Users must have their own valid academic or commercial license to access these files. The pipeline expects these files to be placed manually in `data/raw/` by the user.
+
+This repository intentionally **does not include any data files or derived datasets** (e.g., `project/data/**`, `data/**`) because they originate from proprietary sources licensed via **WRDS (Wharton Research Data Services)** (CRSP, Compustat, CCM).
+
+To reproduce the full pipeline, users must have their own valid WRDS license and obtain the raw datasets independently. The setup script creates the expected folder structure; users must then place the raw input files in the designated directory (e.g., `project/raw_data_processing/data/raw/` or `project/data/raw/`, depending on the pipeline configuration).
+
+**No redistribution:** Users may not redistribute WRDS-licensed data or any files derived from it through this repository.
+
 
 
 ---
