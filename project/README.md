@@ -86,7 +86,7 @@ This repository **does not** contain the proprietary raw data files (`data/raw/*
 │   │   └── signals_ALL.parquet                                   # 25 signals × 134,743 obs (1958-2024)
 │   ├── portfolios/
 │   │   ├── *_signal.parquet                                      # Single-sorted portfolios (25 files)
-│   │   └── doublesorting/                                        # Size-adjusted portfolios (20 files)
+│   │   └── doublesorting/                                        # Size-adjusted portfolios 
 │   ├── factors/
 │   │   └── ff/                                                   # Fama-French factor returns
 │   └── ml_data/                                                  # ML features and predictions
@@ -342,14 +342,14 @@ The next phase moves from static research verification to an **Interactive Alpha
 ```
 
 **Planned Features:**
-1.  **Dynamic Parameter Injection**: Real-time adjustment of looking-back windows (Rolling vs Expanding).
-2.  **Model Ensembling**: Weighted average of LSTM and XGBoost predictions.
-3.  **Advanced Transaction Costs**: Dynamic spread modeling and market impact analysis.
-4.  **Model Selection**: Switch between LSTM and XGBoost predictions.
-5.  **Portfolio Deciles**: Switch between Top/Bottom/LS deciles.
-6.  **Combination trees**: Use a tree-based approach to combine the predictions of the models.
-7.  **Automated Factor Interpretation**: Auto-regressive testing of new factor models (e.g., Q5, Fama-French 6) with automated interpretation of alpha.
-8.  **Custom Stress Testing**: User-defined regime overrides (e.g., "Force High Volatility").
+1.  **Portfolio Deciles**: Switch between Top/Bottom/LS deciles.
+2.  **Dynamic Parameter Injection**: Real-time adjustment of looking-back windows (Rolling vs Expanding).
+3.  **Model Selection**: Switch between LSTM and XGBoost predictions.
+4.  **Model Ensembling**: Weighted average of LSTM and XGBoost predictions.
+5.  **Combination trees**: Use a tree-based approach to combine the predictions of the models.
+6.  **Advanced Transaction Costs**: Dynamic spread modeling and market impact analysis.
+7.  **Custom Stress Testing**: User-defined regime overrides (e.g., "Force High Volatility").
+8.  **Automated Factor Interpretation**: Auto-regressive testing of new factor models (e.g., Q5, Fama-French 6) with automated interpretation of alpha.
 
 
 

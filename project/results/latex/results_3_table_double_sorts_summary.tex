@@ -1,0 +1,24 @@
+\begin{table}[htbp]
+  \centering
+  \caption{Double Sorts: High-Low Spreads by Size Quintile (Newey-West 12 Lags)}
+  \label{tab:double_sort_summary}
+  \small
+  \begin{tabular}{@{}lcccccc@{}}
+    \toprule
+    & \multicolumn{2}{c}{\textbf{Small Cap}} & \multicolumn{2}{c}{\textbf{Big Cap}} & \multicolumn{2}{c}{\textbf{Average}} \\
+    \cmidrule(lr){2-3} \cmidrule(lr){4-5} \cmidrule(lr){6-7}
+    \textbf{Signal} & \textbf{H--L} & \textbf{t-stat} & \textbf{H--L} & \textbf{t-stat} & \textbf{H--L} & \textbf{Rank} \\
+    \midrule
+    Cash Cushion & 1.43 & (0.73) & 2.30 & (1.04) & 0.78 & 1 \\
+    \bottomrule
+  \end{tabular}
+  
+  \begin{minipage}{\textwidth}
+    \small
+    \textit{Note:} This table reports annualized value-weighted High--Low (H--L) return spreads (in \%) between the highest and lowest signal quintiles, conditional on size.
+    Stocks are first sorted into quintiles by market capitalization (Small Cap = quintile 1, Big Cap = quintile 5), then independently sorted by the signal.
+    t-statistics (in parentheses) are computed using Newey-West standard errors with 12 lags to account for autocorrelation and heteroskedasticity.
+    $^{***}$, $^{**}$, $^{*}$ denote significance at the 1\%, 5\%, and 10\% levels (two-tailed).
+    Average H--L is the mean spread across all five size quintiles. Rank is based on this average.
+  \end{minipage}
+\end{table}
