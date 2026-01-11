@@ -65,7 +65,7 @@ adaptive-factor-allocation/
 
 This repository intentionally **does not include any data files or derived datasets** (e.g., `project/data/**`, `data/**`) because they originate from proprietary sources licensed via **WRDS (Wharton Research Data Services)** (CRSP, Compustat, CCM).
 
-To reproduce the full pipeline, users must have their own valid WRDS license and obtain the raw datasets independently. The setup script creates the expected folder structure; users must then place the raw input files in the designated directory (e.g., `project/raw_data_processing/data/raw/` or `project/data/raw/`, depending on the pipeline configuration).
+To reproduce the full pipeline, users must have their own valid WRDS license and obtain the raw datasets independently. The setup script creates the expected folder structure; users must then place the raw input files in the designated directory (e.g., `project/raw_data_processing/**`).
 
 **No redistribution:** Users may not redistribute WRDS-licensed data or any files derived from it through this repository.
 
