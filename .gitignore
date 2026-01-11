@@ -32,3 +32,4 @@ project/data/**
 **/.ipynb_checkpoints/
 .venv/
 .env
+.DS_Store
