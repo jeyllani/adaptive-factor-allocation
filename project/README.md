@@ -59,6 +59,7 @@ If you prefer standard Python virtual environments:
 # 1. Create virtual environment
 python3.10 -m venv .venv
 
+
 # 2. Activate environment
 source .venv/bin/activate
 
