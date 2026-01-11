@@ -24,10 +24,6 @@
 /project/raw_data_processing/**
 
 
-
-
-
-
 # If you want to keep results, uncomment these two lines and remove the ignore above for results
 !project/results/
 !project/results/**
