@@ -35,7 +35,7 @@ This project requires **Python 3.10+** and is optimized for **macOS (Apple Silic
 ### 1. Clone Repository
 
 ```bash
-git clone https://github.com/jeyllani/Projects/adaptive-factor-allocation.git
+git clone https://github.com/jeyllani/adaptive-factor-allocation.git
 cd adaptive-factor-allocation/project
 ```
 

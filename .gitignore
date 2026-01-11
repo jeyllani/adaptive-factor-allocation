@@ -1,0 +1,43 @@
+# --- WHITELIST STRATEGY ---
+# 1. Ignore EVERYTHING by default
+*
+
+# 2. Un-ignore System/Config files
+!.gitignore
+!README.md
+!LICENSE
+!environment.yml
+!requirements.txt
+
+# 3. Un-ignore Source Code & Notebooks
+!*.ipynb
+!src/
+!src/**
+!app/
+!app/**
+!raw_data_processing/
+!raw_data_processing/**
+
+app/
+raw_data_processing/
+
+# 4. Un-ignore Data (Keep processed data, Ignore raw)
+!data/
+!data/**
+# Re-ignore RAW data (Proprietary/License restricted)
+data/raw/
+data/raw/*
+
+# 5. Un-ignore Results (Keep figures and tables)
+!results/
+!results/**
+
+# 6. Explicitly ignore junk (redundant but safe)
+.DS_Store
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+.env
+.git/
+.DS_Store
