@@ -349,7 +349,7 @@ The next phase moves from static research verification to an **Interactive Alpha
 5.  **Combination trees**: Use a tree-based approach to combine the predictions of the models.
 6.  **Advanced Transaction Costs**: Dynamic spread modeling and market impact analysis.
 7.  **Custom Stress Testing**: User-defined regime overrides (e.g., "Force High Volatility").
-8.  **Automated Factor Interpretation**: Auto-regressive testing of new factor models (e.g., Q5, Fama-French 6) with automated interpretation of alpha.
+8.  **Automated Factor **Interpretation****: Auto-regressive testing of new factor models (e.g., Q5, Fama-French 6) with automated interpretation of alpha.
 
 
 
