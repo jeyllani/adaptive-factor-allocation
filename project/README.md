@@ -6,7 +6,9 @@
 This document provides detailed technical documentation for **replicating all research results**.
 
 **Scope**: End-to-End Asset Pricing & Machine Learning Workflow
+
 **Data Flow**: Unidirectional DAG (Directed Acyclic Graph)
+
 **License**: Apache 2.0 (See `LICENSE`)
 
 ---
