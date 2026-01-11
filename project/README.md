@@ -27,11 +27,6 @@ This document provides detailed technical documentation for **replicating all re
 
 This project requires **Python 3.10+** and is optimized for **macOS (Apple Silicon)** using Metal acceleration for TensorFlow.
 
-
-## ⚙️ Installation & Environment
-
-This project requires **Python 3.10+** and is optimized for **macOS (Apple Silicon)** using Metal acceleration for TensorFlow.
-
 ### 1. Clone Repository
 
 ```bash
