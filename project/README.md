@@ -17,7 +17,7 @@ This document provides detailed technical documentation for **replicating all re
 
 <div align="center">
 
-| Performance of Best Strategies (1963-2024) | Rolling Sharpe Ratio with Delta |
+| Performance of Best Strategies (1980-2024) | Rolling Sharpe Ratio with Delta |
 |:---:|:---:|
 | ![Performance Best Strategies](results/latex/results/00_FIG_results_performance_best_strategies.png) | ![Rolling Sharpe](results/latex/results/00_FIG_results_Rolling_Sharpe_with_Delta.png) |
 
