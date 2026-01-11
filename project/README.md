@@ -239,7 +239,8 @@ To reproduce the full pipeline, users must have their own valid WRDS license and
 *   **Description**: Creates the binary target variable (0=Low Vol, 1=High Vol) and engineers 35 predictive features (Macro, Technical, Beta, etc.).
 *   **Inputs**:
     *   `data/ml_data/market/market_returns_ew_nys80.parquet`
-    *   `data/factors/ff/FF5.csv`
+    *   `data/ml_data/features/baseline/basket_1_individual_returns_50.parquet`
+    *   `data/ml_data/features/baseline/basket_2_betas.parquet`
 *   **Outputs**:
     *   `data/ml_data/volatility_targets/volatility_targets_y.parquet`
     *   `data/ml_data/features/features_monthly.parquet`
